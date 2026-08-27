@@ -1,0 +1,39 @@
+.advantages {
+    border: 10px solid var(--grey-15);
+}
+
+.advantages__container {
+    padding: 20px;
+}
+
+.container {}
+
+.advantages__list {
+    display: flex;
+    gap: 20px;
+}
+
+.advantages__item {
+    border: 1px solid var(--grey-15);
+    border-radius: 12px;
+    padding: 40px 20px;
+    background-color: var(--grey-10);
+    background-image: url(../../img/advantages/arrow.svg);
+    background-repeat: no-repeat;
+    background-position: right 20px top 20px;
+    flex: 1;
+    
+}
+.advantages__icon {
+    margin: 0 auto 20px;
+}
+
+.advantages__link {}
+
+.advantages__title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    text-align: center;
+    color: var(--absolute-white);
+}

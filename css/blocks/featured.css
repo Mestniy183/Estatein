@@ -1,0 +1,118 @@
+.featured {
+    padding: 150px 0 75px;
+    
+}
+
+.featured__top {
+    position: relative;
+    margin-bottom: 80px;
+}
+
+.featured__title {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 150%;
+    color: var(--absolute-white);
+    margin-bottom: 14px;
+}
+
+.featured__text {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    color: var(--grey-60);
+    max-width: 1200px;
+}
+
+
+
+.featured__list {
+    display: flex;
+    gap: 30px;
+}
+
+.featured__item {
+    border: 1px solid var(--grey-15);
+    border-radius: 12px;
+    padding: 40px;
+    background: var(--grey-08);
+    flex: 1;
+}
+
+.featured__img {
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.fetured__item-title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+    color: var(--absolute-white);
+    margin-bottom: 6px;
+}
+
+.featured__item-text {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    color: var(--grey-60);
+    margin-bottom: 30px;
+}
+
+.featured__link {
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: var(--absolute-white);
+}
+
+.featured__inner-list {
+    display: flex;
+    margin-bottom: 30px;
+    gap: 10px;
+}
+
+.featured__inner-item {
+    display: flex;
+    gap: 4px;
+    border: 1px solid var(--grey-15);
+    border-radius: 28px;
+    padding: 8px 14px;
+    background: var(--grey-10);
+}
+
+.featured__inner-title {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    color: var(--absolute-white);
+
+}
+
+.featured__item-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.featured__price {
+    display: flex;
+    flex-direction: column;
+}
+
+.featured__price-text {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    color: var(--grey-60);
+}
+
+.featured__price-count {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+    color: var(--absolute-white);
+}
+
+.featured__item-link {}
+
+.site-link {}

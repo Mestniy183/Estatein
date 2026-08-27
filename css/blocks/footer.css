@@ -1,0 +1,132 @@
+.footer {}
+
+.footer__wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0;
+}
+
+.footer__left {}
+
+.footer__logo {
+    margin-bottom: 30px;
+}
+
+.footer__form {
+    width: 305px;
+}
+
+
+.footer__form-label {
+    position: relative;
+
+}
+
+.footer__form-label::before {
+    content: '';
+    background-image: url(../../img/footer/footer__input.svg);
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-size: cover;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 20px;
+}
+
+.footer__form-input {
+    width: 100%;
+    outline: none;
+    border: 1px solid var(--grey-15);
+    border-radius: 12px;
+    padding: 18px 80px 18px 48px;
+    color: var(--absolute-white);
+    background: var(--grey-08);
+}
+
+.footer__form-input:focus {
+    border: 1px solid red;
+}
+
+.footer__form-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 24px;
+}
+
+.footer__nav {
+    max-width: 978px;
+}
+
+.footer__list {
+    display: flex;
+    gap: 100.25px;
+}
+
+.footer__item {}
+
+.footer__item-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: -0.01em;
+    color: var(--grey-60);
+    margin-bottom: 30px;
+}
+
+.footer__list-inner {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer__item-inner {}
+
+.footer__link-inner {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 133%;
+    letter-spacing: -0.01em;
+    color: var(--absolute-white);
+}
+
+.footer__bottom {
+    background: var(--grey-10);
+    padding: 26px 0;
+}
+
+.footer__bottom-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__bottom-left {
+    display: flex;
+    gap: 38px;
+    
+}
+
+.footer__bottom-text {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 133%;
+    letter-spacing: -0.01em;
+    color: var(--absolute-white);
+}
+
+.footer__social {
+    display: flex;
+    gap: 10px;
+}
+
+.footer__item-social {}
+
+.footer__social-link {
+    border-radius: 58px;
+    padding: 14px;
+    width: 52px;
+    height: 52px;
+    background: var(--grey-08);
+}
