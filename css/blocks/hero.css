@@ -22,14 +22,14 @@
 }
 
 .hero__left {
-    padding: 144px 0;
+    padding: clamp(6.125rem, -2.50rem + 9.58vw, 9rem) 0;
     width: 100%;
     max-width: 758px;
 }
 
 .hero__title {
     font-weight: 600;
-    font-size: 60px;
+    font-size: clamp(2.875rem, 0.25rem + 2.92vw, 3.75rem);
     line-height: 120%;
     color: var(--absolute-white);
     margin-bottom: 24px;
@@ -92,11 +92,50 @@
 }
 
 .hero__right {
-    flex: 1 0 920px;
-    margin-right: -162px;
+    flex: 1 0 clamp(43.125rem, 0.00rem + 47.92vw, 57.5rem);
+    margin-right: clamp(-10.125rem, 10.38rem + -17.08vw, -5rem);
 }
 
 .hero__img {
     width: 100%;
     height: 100%;
+    object-fit: cover;
+}
+
+@media (max-width: 1440px) {
+    .hero__title {
+        max-width: 500px;
+        margin-bottom: 20px;
+    }
+    .hero__links {
+        margin-bottom: 50px;
+    }
+    .hero__link--transparent {
+        padding: 14px 20px;
+        font-size: 16px;
+    }
+    .hero__item-title {
+        font-size: 30px;
+    }
+    .hero__item-text {
+        font-size: 16px;
+    }
+    .hero__list {
+        gap: 16px;
+    }
+    .hero__item {
+        padding: 14px 20px;
+    }
+    .hero__text {
+        font-size: 16px;
+        margin-bottom: 50px;
+    }
+
+    .hero__wrapper::after {
+    background-image: url(../../img/hero/hero-sticker-laptop.svg);
+    width: 129px;
+    height: 129px;
+    top: 95px;
+}
+
 }

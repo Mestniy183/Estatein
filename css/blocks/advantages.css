@@ -37,3 +37,27 @@
     text-align: center;
     color: var(--absolute-white);
 }
+
+@media(max-width: 1440px) {
+    .advantages__container {
+        padding: 10px;
+    }
+    .advantages__title {
+        font-size: 16px;
+    }
+    .advantages {
+        border-width: 6px;
+    }
+    .advantages__icon {
+        width: 60px;
+        margin-bottom: 16px;
+    }
+    .advantages__list {
+        gap: 10px;
+    }
+    .advantages__item {
+        padding: 30px 16px;
+        border-radius: 10px;
+        background-size: 26px;
+    }
+}

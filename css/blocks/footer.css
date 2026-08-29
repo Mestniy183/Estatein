@@ -1,12 +1,10 @@
-.footer {}
+
 
 .footer__wrapper {
     display: flex;
     justify-content: space-between;
     padding: 100px 0;
 }
-
-.footer__left {}
 
 .footer__logo {
     margin-bottom: 30px;
@@ -64,8 +62,6 @@
     gap: 100.25px;
 }
 
-.footer__item {}
-
 .footer__item-title {
     font-weight: 500;
     font-size: 20px;
@@ -80,8 +76,6 @@
     flex-direction: column;
     gap: 20px;
 }
-
-.footer__item-inner {}
 
 .footer__link-inner {
     font-weight: 500;
@@ -121,7 +115,7 @@
     gap: 10px;
 }
 
-.footer__item-social {}
+
 
 .footer__social-link {
     border-radius: 58px;

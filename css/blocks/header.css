@@ -87,3 +87,34 @@
     line-height: 150%;
     color: var(--absolute-white);
 }
+
+@media(max-width: 1440px) {
+    .header__content {
+        padding: 14px 0;
+    }
+    .banner__text {
+        font-size: 14px;
+    }
+
+    .header__logo {
+        width: 113px;
+    }
+
+    .banner__close {
+        width: 26px;
+        height: 26px;
+    }
+
+     .banner__close svg {
+        width: 18px;
+        height: 18px;
+    }
+
+    .banner {
+        padding: 14px 0;
+    }
+    .header__link, .header__btn {
+        padding: 12px 20px;
+        font-size: 14px;
+    }
+}

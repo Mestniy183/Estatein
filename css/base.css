@@ -90,7 +90,7 @@ button {
 
 .container {
     max-width: 1920px;
-    padding: 0 162px;
+    padding: 0 clamp(5rem, -10.38rem + 17.08vw, 10.125rem);
     margin: 0 auto;
 }
 
@@ -137,3 +137,13 @@ button {
     top: -40px;
     left: -20px;
 }
+
+@media(max-width: 1440px) {
+    /*.container {
+        padding: 0 80px;
+    }*/
+    .site-link {
+        padding: 14px 20px;
+        font-size: 14px;
+    }
+} 
