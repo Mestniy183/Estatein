@@ -16,18 +16,14 @@ background-image: url('../../img/bg-left.png'), url(../../img/bg-right.png);
 }
 
 
-.start__title {
-    font-weight: 600;
-    font-size: 48px;
-    line-height: 150%;
-    color: var(--absolute-white);
-    margin-bottom: 14px;
-}
+
 
 .start__text {
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 150%;
-    color: var(--grey-60);
-    max-width: 1154px;
+    max-width: clamp(40.25rem, -64.44rem + 139.58vw, 61.1875rem);
+}
+
+@media(max-width: 1440px) {
+    .start {
+        padding: 60px 0;
+    }
 }

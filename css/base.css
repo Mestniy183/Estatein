@@ -43,6 +43,28 @@ ol {
     list-style: none;
 }
 
+.site-title {
+      font-weight: 600;
+    font-size: 48px;
+    line-height: 150%;
+    color: var(--absolute-white);
+    margin-bottom: 14px;
+}
+
+.site-second-title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+    color: var(--absolute-white);
+}
+
+.site-text {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    color: var(--grey-60);
+}
+
 .site-btn {
     font-weight: 500;
     font-size: 18px;
@@ -58,7 +80,8 @@ ol {
 }
 
 .site-link {
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
     border-radius: 10px;
     padding: 18px 24px;
     background: var(--purple-60);
@@ -90,7 +113,7 @@ button {
 
 .container {
     max-width: 1920px;
-    padding: 0 clamp(5rem, -10.38rem + 17.08vw, 10.125rem);
+    padding: 0 clamp(5rem, -20.62rem + 25.62vw, 10.125rem);
     margin: 0 auto;
 }
 
@@ -145,5 +168,40 @@ button {
     .site-link {
         padding: 14px 20px;
         font-size: 14px;
+    }
+    .site-title {
+        margin-bottom: 10px;
+        font-size: 38px;
+    }
+    .site-text {
+        font-size: 16px;
+    }
+    .site-second-title {
+        font-size: 20px;
+    }
+    .slider-pagination {
+        font-size: 16px;
+    }
+    .slider__button {
+        padding: 10px;
+        width: 44px;
+        height: 44px;
+
+    }
+    .stars-section::before {
+        width: 54px;
+        height: 24px;
+    }
+    .site-btn {
+        padding: 14px 20px;
+        border-radius: 8px;
+        font-size: 14px;
+    }
+    .slider__button svg {
+        width: 24px;
+        height: 24px;
+    }
+    .container {
+        padding: 0 clamp(1rem, -8.85rem + 15.38vw, 5rem);
     }
 } 
